@@ -18,9 +18,28 @@
 }
 
 
+.musiqueBar :hover {
+    color: #EF5466;
+    /* transform: scale(110%); */
+
+
+}
+
+
 /* -------------------------------------------------------------------------------------- */
 
-.iconForward {
+
+
+.iconShuffle {
+    height: 20px;
+    color: white;
+    padding: 55px;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+}
+
+
+.iconBackward {
 
     height: 40px;
     color: white;
@@ -33,12 +52,12 @@
 
     height: 40px;
     color: white;
-    padding: 55px;
+    padding: 20px;
     /* border: 1px solid white; */
     border-radius: 50%;
 }
 
-.iconBackward {
+.iconForward {
 
     height: 40px;
     color: white;
@@ -46,3 +65,13 @@
     /* border: 1px solid white; */
     border-radius: 50%;
 }
+
+.iconRepeat {
+    height: 20px;
+    color: white;
+    padding: 55px;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+}
+
+/* -------------------------------------------------------------------------------------- */
