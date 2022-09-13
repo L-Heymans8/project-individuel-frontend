@@ -1,0 +1,46 @@
+* {
+    text-decoration: none;
+}
+
+.cercleGlobal {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    width: 88vw;
+    height: 100%;
+    margin-top: 100px;
+    /* align-items: center; */
+    border: 2px solid rgb(102, 66, 66);
+
+}
+
+
+
+
+.cercle {
+    width: 11.5rem;
+    height: 11.5rem;
+    background-color: #23232D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    box-shadow: 2px 3px 5px rgb(251, 113, 113);
+    transition: all .4s ease-in-out;
+
+
+}
+
+
+.cercle:hover {
+    background: linear-gradient(0.45turn, #ec2a41, #c57272);
+    color: rgb(34, 34, 34);
+    /* color: #EF5466; */
+    transform: scale(1.1);
+    box-shadow: none;
+
+}

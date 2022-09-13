@@ -1,0 +1,17 @@
+.musiqueBarGlobal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.musiqueBar {
+    /* display: flex; */
+
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid white */
+    background-color: rgb(186, 180, 180);
+}
