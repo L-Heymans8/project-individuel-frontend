@@ -1,7 +1,7 @@
 .navbar {
     height: 100vh;
     width: 12vw;
-    border-right: 2px solid rgb(199, 198, 198);
+    border-right: 2px solid rgb(152, 152, 152);
     background-color: #191922;
 
 }
@@ -25,12 +25,12 @@
 
 }
 
-.navbar_ul :hover {
-    color: #EF5466;
-    transform: scale(110%);
-
-}
-
 .navbar_li {
     margin: 2rem;
+    /* color: white; */
+}
+
+.navbar_li:hover {
+    color: #EF5466;
+    transform: scale(110%);
 }

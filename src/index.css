@@ -9,11 +9,17 @@ body {
 
 }
 
-p{
+p {
   text-decoration: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.liHover {
+  color: #EF5466;
+  transform: scale(110%);
 }
