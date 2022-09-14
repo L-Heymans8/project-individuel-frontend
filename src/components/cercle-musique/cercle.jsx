@@ -63,8 +63,6 @@ const Cercle = () => {
                     {/* <p>A propos</p> */}
                 </div>
             </Link>
-
-
         </article>
 
     );

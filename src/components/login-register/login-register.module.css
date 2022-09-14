@@ -1,0 +1,40 @@
+.loginGlobal{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    height: 50px;
+    width:50px; 
+    /* border: 1px solid orange; */
+}
+
+.buttonLogin{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #23232D;
+
+    box-shadow: 2px 3px 5px rgb(251, 113, 113);
+
+}
+
+
+.buttonLogin:hover {
+    background: linear-gradient(0.45turn, #ec2a41, #c57272);
+    /* color: #EF5466; */
+    transform: scale(1.1);
+    box-shadow: none;
+    color: rgb(34, 34, 34);
+
+}
+
+.buttonLogin:hover * {
+    color: rgb(11, 10, 10);
+}
+
+
+.logoLogin{
+
+    color: white;
+    font-size: 1.5rem;
+}

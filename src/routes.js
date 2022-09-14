@@ -4,7 +4,7 @@ import Playlist from "./pages/playlist/playlist"
 import About from "./pages/about/about"
 import Parametres from "./pages/parametre/parametre"
 import Favoris from "./pages/favoris/favoris"
-
+import Profil from "./pages/profil/profil"
 export const routes = [
     {
         path: '',
@@ -36,6 +36,11 @@ export const routes = [
     {
         path: 'A-propos',
         element: <About />
+    },
+    {
+        path: 'Profil',
+        element: <Profil />
     }
+
 
 ]
