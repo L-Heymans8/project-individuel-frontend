@@ -4,14 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import MusiqueBar from './components/musique-bar/musique-bar';
+import { Provider } from 'react-redux';
+import store from './store/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>
-    
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+        <MusiqueBar />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 

@@ -5,11 +5,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
 const LoginRegister = () => {
+
+
+
     return (
         <div className={style.loginGlobal}>
-            <Link to="/Profil">
-            <button className={style.buttonLogin}><FontAwesomeIcon icon={faUser} className={style.logoLogin} /></button>
-            </Link>
+            <button className={style.buttonLogin} >
+                <FontAwesomeIcon icon={faUser} className={style.logoLogin} />
+            </button>
+
         </div>
     );
 };

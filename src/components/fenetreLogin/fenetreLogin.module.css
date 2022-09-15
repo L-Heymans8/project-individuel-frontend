@@ -1,0 +1,30 @@
+.fenetreLoginGlobal {
+    position: absolute;
+    top: 38px;
+    right: 100px;
+
+    /* border: 2px solid red; */
+
+}
+
+.connexionLogin {
+    background-color: #23232D;
+    height: 40px;
+    width: 100px;
+    box-shadow: 2px 3px 5px rgb(251, 113, 113);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+
+}
+
+.connexionLogin:hover {
+    background: linear-gradient(0.45turn, #ec2a41, #c57272);
+    transform: scale(1.1);
+    box-shadow: none;
+    color: rgb(34, 34, 34);
+    font-size: 1rem;
+}
