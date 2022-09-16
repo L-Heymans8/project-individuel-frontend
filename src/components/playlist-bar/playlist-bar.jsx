@@ -5,106 +5,97 @@ const PlaylistBar = () => {
         <div className={style.musiqueBarGlobal}>
             <div className={style.ligne}></div>
             <div className={style.musiqueBarScroll}>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+                <li className={style.musiqueBarLi}>musique</li>
+
+
 
             </div>
         </div>

@@ -22,6 +22,29 @@
     height: 80%;
     width: 100%;
     margin-top: 130px;
-    /* border: 1px solid red; */
+    overflow-y: scroll;
+    /* overflow-y: hidden; */
+
+}
+
+.musiqueBarScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.musiqueBarLi {
+    list-style: none;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    margin-top: 5px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.musiqueBarLi:hover {
+
+    color: rgb(251, 113, 113);
+    transform: scale(110%);
+
 
 }
