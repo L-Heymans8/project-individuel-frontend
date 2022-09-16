@@ -1,9 +1,8 @@
-.musiqueH1 {
+.parametreH1 {
     position: absolute;
     top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
     text-decoration: underline;
-
 }

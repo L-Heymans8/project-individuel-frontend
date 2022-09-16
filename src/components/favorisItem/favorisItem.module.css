@@ -1,0 +1,35 @@
+.favorisGlobal {
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 85%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    /* grid-row: 1 / 4; */
+    grid-auto-rows: minmax(100px, auto);
+
+}
+
+.favorisCard {
+    height: 250px;
+    width: 250px;
+    /* border: 2px solid orange; */
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(215, 173, 94);
+    color: black;
+
+}
+
+.favorisPlayIcon {
+    height: 60px;
+}
+
+.favorisPlayIcon:hover {
+    transform: scale(110%);
+    color: white;
+}
