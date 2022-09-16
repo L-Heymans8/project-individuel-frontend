@@ -9,12 +9,14 @@ const LoginRegister = () => {
 
 
     return (
-        <div className={style.loginGlobal}>
-            <button className={style.buttonLogin} >
-                <FontAwesomeIcon icon={faUser} className={style.logoLogin} />
-            </button>
+        <Link to={'/Profil'}>
+            <div className={style.loginGlobal}>
+                <button className={style.buttonLogin} >
+                    <FontAwesomeIcon icon={faUser} className={style.logoLogin} />
+                </button>
 
-        </div>
+            </div>
+        </Link>
     );
 };
 

@@ -1,0 +1,77 @@
+.buttonGlobal {
+    /* height: 100px; */
+    width: 200px;
+    /* border: 2px solid white; */
+    position: absolute;
+    right: 120px;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.registerButton {
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    background-color: #23232D;
+    box-shadow: 2px 3px 5px rgb(251, 113, 113);
+    color: white;
+    font-weight: 600;
+}
+
+.registerButton:hover {
+    background: linear-gradient(0.45turn, #ec2a41, #c57272);
+    /* color: #EF5466; */
+    transform: scale(1.1);
+    box-shadow: none;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    font-size: 1.1rem
+}
+
+.loginButton {
+    font-weight: 600;
+    color: white;
+    height: 50px;
+    width: 90px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #23232D;
+    box-shadow: 2px 3px 5px rgb(251, 113, 113);
+}
+
+.loginButton:hover {
+    background: linear-gradient(0.45turn, #ec2a41, #c57272);
+    /* color: #EF5466; */
+    transform: scale(1.1);
+    box-shadow: none;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    font-size: 1.1rem
+}
+
+.logoutButton {
+    font-weight: 600;
+    color: white;
+    height: 50px;
+    width: 90px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #23232D;
+    box-shadow: 2px 3px 5px rgb(251, 113, 113);
+    margin-left: 120px;
+}
+
+.logoutButton:hover {
+    background: linear-gradient(0.45turn, #ec2a41, #c57272);
+    /* color: #EF5466; */
+    transform: scale(1.1);
+    box-shadow: none;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    font-size: 1.1rem
+}

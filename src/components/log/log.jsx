@@ -4,36 +4,22 @@ import FenetreRegister from '../fenetreRegister/fenetreRegister';
 import style from './log.module.css'
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
+import { logoutUser } from '../../store/actions/auth-action';
+import { useDispatch } from 'react-redux';
 
-const Log = () => {
-
+const Log = ({ onSelectedMenu }) => {
+    const [menuVisible, setMenuVisible] = useState(false);
     const [register, setRegister] = useState(false);
     const [login, setLogin] = useState(false)
-
+    //fonction qui permet que quand l'utilisateur est connecté de faire disparaitre mes boutons s'enregistrer et se connecter
     const isConnected = useSelector(state => state.auth.isConnected)
-    let setupButton = <div></div>;
     useEffect(() => {
-        console.log(isConnected)
         if (isConnected) {
-            setupButton = <div>
-                <button> Logout</button>
-            </div>
-
-        }
-
-        else {
-            console.log("eaea")
-            setupButton = <div>oajeae</div>
-            {/* <button onClick={handleStates} id="register">
-                    Register
-                </button>
-                <button onClick={handleStates} id="login">
-                    Login
-                </button>
-
-            </div> */}
+            setLogin(false)
+            setRegister(false)
         }
     }, [isConnected])
+
 
     const handleStates = (e) => {
         if (e.target.id === "register") {
@@ -45,14 +31,31 @@ const Log = () => {
             setRegister(false)
         }
     }
+
+    const dispatch = useDispatch()
+    const onLogout = () => {
+        dispatch(logoutUser())
+    }
     return (
         <div>
-            {setupButton}
+            <div className={style.buttonGlobal}>
+                {!isConnected &&
+                    <button onClick={handleStates} id="register" className={style.registerButton} >
+                        Register
+                    </button>}
+                {!isConnected &&
+                    <button onClick={handleStates} id="login" className={style.loginButton}>
+                        Login
+                    </button>}
+                {isConnected &&
+                    <button className={style.logoutButton} onClick={(onLogout)}>Logout</button>}
+
+            </div>
 
             <div>
 
                 {register && <FenetreRegister />}
-                {login && <FenetreLogin />}
+                {login && <FenetreLogin onSelected={onSelectedMenu} />}
             </div>
         </div>
 

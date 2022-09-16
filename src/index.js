@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import MusiqueBar from './components/musique-bar/musique-bar';
 import { Provider } from 'react-redux';
 import store from './store/store';
+import Log from './components/log/log';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Provider store={store}>
       <BrowserRouter>
         <App />
+        <Log />
         <MusiqueBar />
       </BrowserRouter>
     </Provider>
