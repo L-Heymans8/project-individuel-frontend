@@ -6,3 +6,19 @@
     font-size: 3rem;
     text-decoration: underline;
 }
+
+.parametreP {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    /* text-decoration: underline; */
+
+}
+
+.hammer {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: rgb(204, 98, 28);
+}
